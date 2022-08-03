@@ -10,12 +10,13 @@
     max-width: 1020px;
     margin: auto;
 }
-
+#navbar{
+    background-color: aqua;
+}
 #navbar .inner{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: aqua;
 
 }
 
@@ -38,5 +39,70 @@
     color: black;
 }
 
+#navbar .menu_item a:hover,
+    #navbar .menu_item a.activ{
+    border-bottom: 1px solid #000000;
+}
+
+#home {
+    background-color: rgb(205, 249, 249);
+}
+
+#home .inner{
+    display: flex;
+    padding-top: 40px;
+}
+
+#home .right{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+#home .right .img {
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    margin: 10px;
+    overflow: hidden;
+    background-color: aqua;
+}
 
 
+#home .right .img img{
+    max-width: 100%;
+    max-height: 100%;
+    transition: all .3s ease-in;
+}
+#home .right .img:hover img{
+        transform: scale(1.1);
+}
+
+#home .left{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#home .left h2{
+ margin: 20px;
+ font-size: 30px;
+}
+
+#home .left p{
+    margin: 20px;
+    font-size: 16px;
+}
+
+#home .left a{
+    margin: 20px;
+    font-size: 30px;
+    text-decoration: none ;
+    border: 1px solid;
+    padding: 10px;
+    color: #000;
+    border-radius: 7px;
+    background-color: aqua;
+
+}
