@@ -1,5 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Spartan';
+}
 
 .inner{
     max-width: 1020px;
+    margin: auto;
 }
+
+#navbar .inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aqua;
+
+}
+
+#navbar .logo {
+    display: flex;
+    height: 40px;
+    margin: 10px;
+}
+
+#navbar ul {
+    display: flex;
+}
+
+#navbar .menu_item{
+    padding: 10px;
+}
+
+#navbar .menu_item a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
